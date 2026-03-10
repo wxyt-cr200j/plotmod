@@ -1,0 +1,35 @@
+modLoader = "javafml"
+loaderVersion = "[43,)"
+#issueTrackerURL = ""
+license = "Insert License Here"
+
+[[mods]]
+modId = "plotmod"
+version = "${version}"
+displayName = "Plot Mod"
+authors = "Me!"
+description = '''
+This is an plot description! Tell everyone what your mod is about!
+'''
+#logoFile = ""
+
+[[dependencies.plotmod]]
+modId = "forge"
+mandatory = true
+versionRange = "[43,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.plotmod]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.19.2,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.plotmod]]
+modId = "architectury"
+mandatory = true
+versionRange = "[6.5.85,)"
+ordering = "AFTER"
+side = "BOTH"

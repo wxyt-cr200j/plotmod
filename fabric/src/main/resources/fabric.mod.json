@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "plotmod",
+  "version": "${version}",
+  "name": "Plot Mod",
+  "description": "This is an plot description! Tell everyone what your mod is about!",
+  "authors": [
+    "Me!"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-plot-mod"
+  },
+  "license": "Insert License Here",
+  "icon": "assets/plotmod/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.plotmod.fabric.PlotModFabric"
+    ]
+  },
+  "mixins": [
+    "plotmod.mixins.json",
+    "plotmod-common.mixins.json"
+  ],
+  "depends": {
+    "fabric": "*",
+    "minecraft": ">=1.19.2",
+    "architectury": ">=6.5.85"
+  }
+}
