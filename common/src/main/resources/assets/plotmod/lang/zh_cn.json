@@ -1,0 +1,9 @@
+{
+  "itemGroup.plotmod.plot_blocks_tab": "剧情模组方块",
+  "item.plotmod.plot_trigger":"普通剧情触发器",
+  "block.plotmod.plot_trigger":"普通剧情触发器",
+  "gui.plotmod.text.enter_id": "输入剧情ID",
+  "gui.plotmod.button.confirm": "确认",
+  "plot.plotmod.error.no_plot": "没有剧情呢",
+  "plot.example_plot.part1.test1.text": "这是一段测试剧情喵"
+}

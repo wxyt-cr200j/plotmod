@@ -1,0 +1,7 @@
+{
+  "context": {
+    "plot.example_plot.part1.test1": {
+      "location": "plotmod:plot/part1/test1.json"
+    }
+  }
+}

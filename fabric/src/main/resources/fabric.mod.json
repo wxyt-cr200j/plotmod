@@ -17,6 +17,9 @@
   "entrypoints": {
     "main": [
       "net.plotmod.fabric.PlotModFabric"
+    ],
+    "client": [
+      "net.plotmod.fabric.PlotModFabricClient"
     ]
   },
   "mixins": [

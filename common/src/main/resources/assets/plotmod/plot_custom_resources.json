@@ -1,0 +1,9 @@
+{
+  "plot.example_plot": {
+    "name": "plot.example_plot.name",
+    "version": 1.0,
+    "plots": {
+      "plot.example_plot.test1": "plotmod:plot/parts.json"
+    }
+  }
+}

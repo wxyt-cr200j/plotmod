@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "plotmod:block/plot_trigger"
+    }
+  }
+}
