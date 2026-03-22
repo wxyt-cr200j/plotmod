@@ -1,5 +1,10 @@
 {
   "type": "text",
   "text": "plot.example_plot.part1.test1.text",
-  "next": ""
+  "next": "",
+  "father": "plot.example_plot",
+  "description": "plot.example_plot.part1.test1.description",
+  "lead_to": "",
+  "audio": "",
+  "time": 5
 }

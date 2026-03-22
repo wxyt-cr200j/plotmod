@@ -12,12 +12,14 @@ import static net.plotmod.PlotMod.MOD_ID;
 public class Plots {
     public JsonObject plots = new JsonObject();
 
+    public JsonObject plot_fathers =new JsonObject();
     public void onLoad() {
 
         try {
             ResourceLocation CUSTOM_RES = new ResourceLocation("plotmod:plot_custom_resources.json");
             JsonObject temp = JsonReader.readJson(CUSTOM_RES);
             System.out.println(temp);
+            plot_fathers=temp;
             JsonObject temp1 = new JsonObject();
             temp.entrySet().forEach(stringJsonElementEntry -> {
                 JsonObject temp2 = stringJsonElementEntry.getValue().getAsJsonObject().get("plots").getAsJsonObject();

@@ -4,6 +4,14 @@
     "version": 1.0,
     "plots": {
       "plot.example_plot.test1": "plotmod:plot/parts.json"
+    },
+    "first_plot": {
+      "id": "plot.example_plot.part1.test1",
+      "pos": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
     }
   }
 }
